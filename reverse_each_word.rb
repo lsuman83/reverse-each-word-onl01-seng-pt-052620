@@ -20,7 +20,7 @@ def reverse_each_word (sentence2)
   back2 = []
   array2 = sentence2.split(" ")
   array2.collect do |words|
-    back = words.reverse()
+    back2 = words.reverse()
   end
-  return back.join(" ")
+  return back2.join(" ")
 end
