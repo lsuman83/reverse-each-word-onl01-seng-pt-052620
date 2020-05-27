@@ -14,13 +14,14 @@ def reverse_each_word (sentence)
   
 end
 
-#def reverse_each_word (sentence2)
+def reverse_each_word (sentence2)
   
- # array2 = []
-#  array2.collect do |words|
- #   words.reverse
-#  end
+  array2 = []
+  array2 = sentence2.split(" ")
+  array2.collect do |words|
+    words.reverse
+  end
   
- # return array2.join(" ")
+  return array2.join(" ")
   
-#end
+end
