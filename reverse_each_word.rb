@@ -22,4 +22,5 @@ def reverse_each_word (sentence2)
   back2 = array2.collect { |words| words.reverse()}
 
   return back2.join(" ")
+  
 end
